@@ -11,8 +11,8 @@
   "scripts": {
     "analyze": "ANALYZE=true next build",
     "dev": "yarn typechain && next",
-    "build": "set NODE_OPTIONS='--openssl-legacy-provider' next build",
-    "start": "set NODE_OPTIONS='--openssl-legacy-provider' next start",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider next build",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider next start",
     "format": "prettier --write \"./**/*.{json,js,jsx,ts,tsx}\" --ignore-path .gitignore",
     "postinstall": "yarn typechain && typesync",
     "lint": "next lint",
