@@ -11,8 +11,8 @@
   "scripts": {
     "analyze": "ANALYZE=true next build",
     "dev": "yarn typechain && next",
-    "build": "yarn typechain && next build",
-    "start": "yarn typechain && next start",
+    "build": "next build",
+    "start": "next start",
     "format": "prettier --write \"./**/*.{json,js,jsx,ts,tsx}\" --ignore-path .gitignore",
     "postinstall": "yarn typechain && typesync",
     "lint": "next lint",
