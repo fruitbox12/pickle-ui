@@ -5,7 +5,7 @@
   "author": "BigBrainBriner <bigbrainbriner@protonmail.com>",
   "license": "MIT",
   "engines": {
-    "yarn": "0.23.2"
+    "yarn": "1.22.17"
   },
   "scripts": {
     "analyze": "ANALYZE=true next build",
